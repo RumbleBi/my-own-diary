@@ -3,7 +3,7 @@ import * as C from "./BoardDetail.styles";
 export default function BoardDetailUI() {
   return (
     <>
-      <div></div>
+      <div>게시글 상세페이지</div>
     </>
   );
 }
