@@ -1,1 +1,7 @@
-# my-own-diary
+react-router-dom
+typescript
+axios
+emotion
+eslint
+prettier
+react-query
