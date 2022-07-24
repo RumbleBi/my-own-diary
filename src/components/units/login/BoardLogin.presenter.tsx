@@ -2,16 +2,20 @@ import * as C from "./BoardLogin.styles";
 
 export default function BoardLoginUI() {
   return (
-    <>
-      <div
-        style={{
-          height: "100vh",
-          backgroundColor: "#121212",
-          color: "#ECECEC",
-        }}
-      >
-        로그인페이지
+    <C.Wrapper>
+      <C.Title>My Own Diary</C.Title>
+      <div>
+        <C.Text>이메일</C.Text>
+        <C.Email type="text" />
       </div>
-    </>
+      <div>
+        <C.Text>비밀번호</C.Text>
+        <C.Password type="password" />
+      </div>
+      <div>
+        <C.SignInBtn>회원가입</C.SignInBtn>
+        <C.LoginBtn>로그인하기</C.LoginBtn>
+      </div>
+    </C.Wrapper>
   );
 }

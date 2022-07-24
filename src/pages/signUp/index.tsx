@@ -1,7 +1,5 @@
+import BoardSignUp from "components/units/signUp/BoardSignUp.container";
+
 export default function SignUpPage() {
-  return (
-    <>
-      <div></div>
-    </>
-  );
+  return <BoardSignUp />;
 }
