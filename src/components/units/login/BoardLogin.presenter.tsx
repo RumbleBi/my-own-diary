@@ -14,7 +14,7 @@ export default function BoardLoginUI() {
       </div>
       <div>
         <C.SignInBtn>회원가입</C.SignInBtn>
-        <C.LoginBtn>로그인하기</C.LoginBtn>
+        <C.LoginBtn>로그인</C.LoginBtn>
       </div>
     </C.Wrapper>
   );

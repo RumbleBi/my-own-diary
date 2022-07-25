@@ -25,9 +25,9 @@ export const WriteBtn = styled.button`
   width: 150px;
   height: 50px;
   border-radius: 50px;
-  background-color: black;
+  background-color: #202020;
   color: #ececec;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   transition: all 0.2s;
   :hover {
     background-color: #eaeaea;
